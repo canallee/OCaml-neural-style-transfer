@@ -1,0 +1,60 @@
+{
+  "flags": [
+    {
+      "flag": "style_weight",
+      "arg_type": "float",
+      "default": 9e5,
+      "info": "style weight"
+    },
+    {
+      "flag": "learning_rate",
+      "arg_type": "float",
+      "default": 8e-2,
+      "info": "learning rate"
+    },
+    {
+      "flag": "total_steps",
+      "arg_type": "int",
+      "default": 30,
+      "info": "total_steps"
+    },
+    {
+      "flag": "layers_style_loss",
+      "arg_type": "int list",
+      "default": [
+        2,
+        10,
+        14,
+        21,
+        28
+      ],
+      "info": "layers_style_loss"
+    },
+    {
+      "flag": "layers_content_loss",
+      "arg_type": "int list",
+      "default": [
+        21
+      ],
+      "info": "layers_content_loss"
+    },
+    {
+      "flag": "k",
+      "arg_type": "int",
+      "default": 5,
+      "info": "k"
+    },
+    {
+      "flag": "sigma",
+      "arg_type": "float",
+      "default": 1.2,
+      "info": "sigma"
+    },
+    {
+      "flag": "size",
+      "arg_type": "float",
+      "default": 0.5,
+      "info": "size"
+    }
+  ]
+}

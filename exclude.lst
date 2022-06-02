@@ -1,0 +1,7 @@
+_build/*
+.DS_Store
+*.zip
+*.ot
+.vscode/*
+.git/*
+.gitignore

@@ -1,0 +1,11 @@
+We are copying-paste these following source codes from OCaml Torch, 
+since we need to create custom helper functions from helper functions 
+in source code not avaliable in corresponding .mli files
+
+Here are the source codes that we copied into our system:
+    - In 'img_helper.ml' we copied line 11-27 from Torch_vision imagenet.ml
+    the LOC for this part of copy is 13
+    - In 'vgg_custom' we copied line 10-126 from Torch_vision vgg.ml
+    the LOC for this part of copy is 113
+
+The total number of LOC needs to be deducted is therefore 126
